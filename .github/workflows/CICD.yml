@@ -40,5 +40,5 @@ jobs:
       - name: Display folder file
         run: |
             echo "+++++++"
-            cd \home\runner\work\reactDotnetCoreCiCd\reactDotnetCoreCiCd\myapp15\
+            cd /home/runner/work/reactDotnetCoreCiCd/reactDotnetCoreCiCd/myapp15
             dir        
