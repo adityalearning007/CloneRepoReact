@@ -40,5 +40,5 @@ jobs:
       - name: Display folder file
         run: |
             echo "+++++++"
-            cd ${{env.ROOT_PATH}}\myapp15
+            cd .\myapp15
             dir        
