@@ -34,7 +34,7 @@ jobs:
             ${{ runner.os }}-nuget-              
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.dotnet_root}}\myapp15
+        run: dotnet publish -c Release -o ${{env.GITHUB_WORKSPACE}}\myapp15
         working-directory: ${{env.root_path}}
      
       - name: Display folder file
