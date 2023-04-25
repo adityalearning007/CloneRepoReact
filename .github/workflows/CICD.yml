@@ -40,5 +40,5 @@ jobs:
       - name: Display folder file
         run: |
             echo "+++++++"
-            cd .\myapp15
+            cd ${{env.GITHUB_WORKSPACE}}
             dir        
