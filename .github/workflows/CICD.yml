@@ -40,5 +40,5 @@ jobs:
       - name: Display folder file
         run: |
             echo "+++++++"
-            cd ${{env.GITHUB_WORKSPACE}}
+            cd \home\runner\work\reactDotnetCoreCiCd\reactDotnetCoreCiCd\myapp15\
             dir        
