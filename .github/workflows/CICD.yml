@@ -30,4 +30,5 @@ jobs:
       run : |
         echo "***"
         cd ./Project1
+        dir
       
